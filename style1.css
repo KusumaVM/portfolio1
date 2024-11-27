@@ -1,0 +1,109 @@
+/* GLOBEL STYLES */
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./bg-home-office-studio.jpg);
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+/*Links */
+a{
+    color:brown;
+}
+a:hover{
+color:rgba(203, 51, 117, 0.121)
+}
+footer a{
+    color:blue;
+}
+footer a:hover{
+    color:rgb(58, 20, 20)
+}                                                                                                                               
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer{
+    background-color:white;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+/* home */
+.home{
+    background-image:url(./placeholder-images/project-biz-cards-1000px.jpg);
+
+}
+.home.content-wrapper{
+    background: rgb(rgb(58, 20, 20), green, blue);
+}
+
+}
+/*resume*/
+.resume header::before{
+    background-image: url(./placeholder-images/bg-home-office-studio.jpg);
+    display: block;
+    height: 300px;
+    content: "";
+    background-size: cover;
+}
+.resume-section{
+    margin-bottom: 5px;
+}
+.resume-section h1{
+    border-bottom: 2px dashed rgba(19, 15, 15, 0.137);
+}
+.socials{
+    list-style-type:none;
+}
+.socials li{
+    display:inline-block;
+    padding:8px;
+}
+.socials img{
+    width:32px;
+}
+.socials:hover{
+    size:px;
+}
+pre{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.button1{
+    width:200px;
+    height: 50px;
+    background-color:lavender;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bolder;
+    position: fixed;
+}
+.button1:hover{
+    background-color:darkgreen;
+    color: white;
+    font-weight: bolder;
+    border: 2px white solid;
+}
+.button2{
+    width:200px;
+    height: 50px;
+    background-color:lavender;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    font-weight:bold;
+    position:fixed;
+    top: 65px;
+    left:5px;
+    /* margin-top: 10px; */
+}
+.button2:hover{
+    background-color:blueviolet;
+    color: white;
+    font-weight:bold;
+    border: 2px white solid;
+}

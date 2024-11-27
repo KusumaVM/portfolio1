@@ -1,0 +1,134 @@
+/* GLOBAL------------
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+body {
+    background-color:darkkhaki; /* Optional background color */
+    background-image:url(./bg-home-office-city.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 10px;
+    height: 100vh;
+    color: white;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+/* GLOBAL STYLES
+----------------------*/
+a{
+    color:green
+}
+a:hover{
+    color:#bcaa96
+}
+.btn{
+    background:white;
+    color: black;
+    text-decoration: none;
+}
+button{
+    background:#3c8453;
+    color:a\#bcaa96
+}
+
+/*HOME------------------*/
+.home{
+    background-image: url;
+}
+
+
+
+/*PROFILE------------------*/
+
+
+
+
+
+
+/*PROFILE------------------*/
+
+
+
+
+/*EDUCATION------------------*/
+
+
+
+/*footer---------------*/
+/* footer{
+    color: black;
+        background-color: rgb(246, 242, 242); 
+        justify-content: space-between;   
+}
+footer a{
+    color: rgb(12, 113, 113);
+}
+footer a:hover{
+    color:chocolate
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display:inline-block;
+}
+.socials img{
+    width: 32px;
+}
+
+div{
+    background-color: azure;
+    color: black;
+    background-position: center;
+} */
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-position: center;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 0;
+    color: black;
+    background-color:white;
+    justify-content: space-between;
+    align-items: flex-end;  
+
+}
+footer a{
+    color: rgb(12, 113, 113);
+}
+footer a:hover{
+    color:chocolate
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display:inline-block;
+}
+.socials img{
+    width: 32px;
+}
+
+div{
+    background-color: azure;
+    color: black;
+    background-position: center;
+    margin: 10px;
+    padding: 20px;
+}
